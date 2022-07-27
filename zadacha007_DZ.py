@@ -7,11 +7,9 @@
 # то в итоге будет, 3*x^3 + 12*x^2+10*x+66
 
 
-# считывание списка из файла:
-from asyncore import read
-from curses.ascii import isdigit
-from itertools import zip_longest
 
+
+from itertools import zip_longest
 
 def OpenFile(fileName):
     with open(fileName, 'r') as file:  # открываем файл на чтение
